@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/youssef.cherradou/Desktop/angular-components-main/components/simplebutton/src/polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! /Users/youssef.cherradou/Desktop/angular-components-main/angular-components/angular-components/components/outsideinteractionapp/src/polyfills.ts */"hN/g");
 
 
 /***/ }),
