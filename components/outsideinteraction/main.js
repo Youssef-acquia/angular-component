@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/youssef.cherradou/Desktop/angular-components-main/components/simplebutton/src/main.ts */"zUnb");
+module.exports = __webpack_require__(/*! /Users/youssef.cherradou/Desktop/work on angular bits/outsideinteractionapp/src/main.ts */"zUnb");
 
 
 /***/ }),
@@ -64,7 +64,7 @@ class AppComponent {
         this.birthday = '';
     }
     ngOnInit() {
-        var formAttributes = document.getElementsByClassName('simpleforms')[0].attributes;
+        var formAttributes = document.getElementsByClassName('outsideinteraction')[0].attributes;
         this.color = formAttributes.getNamedItem('data-favcolor').value;
         this.name = formAttributes.getNamedItem('data-name').value;
         this.active = formAttributes.getNamedItem('data-active').value;
