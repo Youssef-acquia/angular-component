@@ -1,5 +1,5 @@
-name: Example Angular Simple Button App v2
-description: 'Example Simple Button component using Angular.'
+name: Angular Outside Interaction V1
+description: 'Example Angular outside interaction.'
 js:
   main.js: {}
   polyfills.js: {}
