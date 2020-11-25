@@ -1,4 +1,4 @@
-name: Angular Outside Interaction V2
+name: Angular Outside Interaction V3
 description: 'Example Angular outside interaction.'
 js:
   main.js: {}
@@ -12,6 +12,10 @@ form_configuration:
     type: textfield
     title: 'Name'
     default_value: 'Leonard McCoy'
+  name:
+    type: textfield
+    title: 'Colorinput'
+    default_value: 'Red'
   greeting:
     type: select
     title: 'Greeting'

@@ -58,6 +58,7 @@ class AppComponent {
         this.title = 'Greeting!';
         this.color = '#dd0031';
         this.name = '';
+        this.colorInputName = '';
         this.active = '';
         this.greeting = '';
         this.interests = '';
@@ -67,11 +68,15 @@ class AppComponent {
         var formAttributes = document.getElementsByClassName('outsideinteraction')[0].attributes;
         this.color = formAttributes.getNamedItem('data-favcolor').value;
         this.name = formAttributes.getNamedItem('data-name').value;
+        this.colorInputName = formAttributes.getNamedItem('data-colorinput').value;
         this.active = formAttributes.getNamedItem('data-active').value;
         this.greeting = formAttributes.getNamedItem('data-greeting').value;
         this.interests = formAttributes.getNamedItem('data-interests').value;
         this.birthday = formAttributes.getNamedItem('data-date').value;
         this.title = 'Greetings ' + this.greeting + ' ' + this.name + '!';
+        var outsideFieldColor = document.getElementById(this.colorInputName);
+        console.dir(outsideFieldColor);
+        console.log(outsideFieldColor[0].value);
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
