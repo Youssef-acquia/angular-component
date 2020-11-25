@@ -75,8 +75,11 @@ class AppComponent {
         this.birthday = formAttributes.getNamedItem('data-date').value;
         this.title = 'Greetings ' + this.greeting + ' ' + this.name + '!';
         var outsideFieldColor = document.getElementById(this.colorInputName);
-        console.dir(outsideFieldColor);
-        console.log(outsideFieldColor[0].value);
+        this.color = outsideFieldColor.value;
+        outsideFieldColor.addEventListener("change", myFunction);
+        function myFunction() {
+            this.color = outsideFieldColor.value;
+        }
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
