@@ -15,7 +15,7 @@ form_configuration:
   colorinput:
     type: textfield
     title: 'Color input ID'
-    default_value: 'Red'
+    default_value: 'newcolor'
   greeting:
     type: select
     title: 'Greeting'
